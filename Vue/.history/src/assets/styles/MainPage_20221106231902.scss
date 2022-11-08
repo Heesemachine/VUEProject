@@ -1,0 +1,25 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    h1 {
+      color: #ffc800;
+      font-size: 70px;
+      margin-bottom: 20px;
+    }
+    button {        
+      background: transparent;
+      color: white;
+      outline: none;
+      font-size: 30px;
+      border: 0;
+      -webkit-transition-duration: 0,4s;
+      transition-duration: 0.4s;
+    }
+
+    button:hover {
+        background-color: #ff8000;
+    }
+  }

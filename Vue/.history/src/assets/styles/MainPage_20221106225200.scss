@@ -1,0 +1,19 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    h1 {
+      color: #f30707;
+      font-size: 70px;
+      margin-bottom: 20px;
+    }
+
+    btn-outline-light {
+
+        background-color: black;
+        size: 30px;
+
+    }
+  }
